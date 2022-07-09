@@ -1,0 +1,22 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "packageManager": "yarn@3.2.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "yarn workspace website"
+  },
+  "devDependencies": {
+    "next-transpile-modules": "^9.0.0"
+  },
+  "dependencies": {
+    "next-compose-plugins": "^2.2.1"
+  }
+}
