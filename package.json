@@ -11,12 +11,14 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "yarn workspace website"
+    "client": "yarn workspace website",
+    "cra": "yarn workspace cra"
   },
   "devDependencies": {
     "next-transpile-modules": "^9.0.0"
   },
   "dependencies": {
+    "@craco/craco": "^6.4.5",
     "next-compose-plugins": "^2.2.1"
   }
 }
