@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Button } from "components/Button";
+import { Button, Title } from "components";
 const Home = () => (
   <div className="container">
     <Head>
@@ -7,9 +7,9 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <main>
-      <h1 className="title">
+      <Title>
         Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
+      </Title>
       <Button>Hello World</Button>
     </main>
   </div>
