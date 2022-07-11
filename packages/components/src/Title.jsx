@@ -1,8 +1,10 @@
 import React from "react";
-// import "./index.css";
+import twc from "tailwindcss-classnames";
+
+const h1ClassName = twc("text-3xl font-bold");
 
 const Title = ({ children }) => {
-  return <h1 className="text-3xl font-bold underline">{children}</h1>;
+  return <h1 className={h1ClassName}>{children}</h1>;
 };
 
 export default Title;

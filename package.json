@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@craco/craco": "^6.4.5",
-    "next-compose-plugins": "^2.2.1"
+    "next-compose-plugins": "^2.2.1",
+    "tailwindcss-classnames": "^3.0.5"
   }
 }
